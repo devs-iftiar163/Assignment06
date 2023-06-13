@@ -7,7 +7,8 @@ const search = prompt("Search Members :");
 const result = members.filter((data) => 
 data.bloodType === search || 
 data.phone === search ||
-data.address === search
+data.address === search || 
+data.gender === search                              
  );
 
 // Final Result
